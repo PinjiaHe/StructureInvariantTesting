@@ -164,11 +164,11 @@ source_language = 'en'
 target_language = 'zh-CN'
 
 # parameters
-num_of_perturb = 10				# number of generated similar words for a given position
+num_of_perturb = 10			# number of generated similar words for a given position
 distance_threshold = 0.0		# the distance threshold in "translation error detection via structure comparison"
-issue_threshold = 3				# how many output issues
+issue_threshold = 3			# how many output issues
 sentenceBount = 10000			# an upperbound to avoid translating too many sentences
-apikey = ''						# the apikey for Bing Microsoft Translator
+apikey = ''				# the apikey for Bing Microsoft Translator
 
 dataset = 'politics'
 software = 'bing'
